@@ -39,7 +39,7 @@ setup(
     author_email='konsta@fastmonkeys.com',
     description='functools.total_ordering backport for Python 2.6',
     long_description=__doc__,
-    packages=['total_ordering'],
+    py_modules=['total_ordering'],
     zip_safe=False,
     include_package_data=True,
     platforms='any',
