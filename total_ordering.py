@@ -6,6 +6,8 @@ def total_ordering(cls):
     Backport to work with Python 2.6
 
     Class decorator that fills in missing ordering methods
+
+    Code from: http://code.activestate.com/recipes/576685/
     """
     convert = {
         '__lt__': [
